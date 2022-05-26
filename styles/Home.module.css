@@ -5,8 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0c6e05;
-    color: #fafafa
 }
 
 .main {
@@ -71,7 +69,6 @@
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
         Bitstream Vera Sans Mono, Courier New, monospace;
-    color: #535353
 }
 
 .grid {
