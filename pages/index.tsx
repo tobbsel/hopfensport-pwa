@@ -3,59 +3,35 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div className={styles.container}>
-            <main className={styles.main}>
-                <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
-                </h1>
+        <main className={styles.main}>
+            <h1 className={styles.title}>
+            Willkommen auf Hopfensport.de!
+            </h1>
 
-                <p className={styles.description}>
-            Get started by editing{' '}
-                    <code className={styles.code}>pages/index.js</code>
-                </p>
+            <p className={styles.description}>
+                Dein kleiner Helfer beim Schafkopf - Damit Du dich auf das konzentrieren kannst, was zählt.
+            </p>
 
-                <div className={styles.grid}>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
-                        <h3>Documentation &rarr;</h3>
-                        <p>Find in-depth information about Next.js features and API.</p>
-                    </a>
-
-                    <a href="https://nextjs.org/learn" className={styles.card}>
-                        <h3>Learn &rarr;</h3>
-                        <p>Learn about Next.js in an interactive course with quizzes!</p>
-                    </a>
-
-                    <a
-                        href="https://github.com/vercel/next.js/tree/canary/examples"
-                        className={styles.card}
-                    >
-                        <h3>Examples &rarr;</h3>
-                        <p>Discover and deploy boilerplate example Next.js projects.</p>
-                    </a>
-
-                    <a
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        className={styles.card}
-                    >
-                        <h3>Deploy &rarr;</h3>
-                        <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-                        </p>
-                    </a>
-                </div>
-            </main>
-
-            <footer className={styles.footer}>
-                <Link href="/">
-                    <a>
-                        <img src="/clubs.svg" alt="Clubs symbol" className={styles.logo} />
-                        <img src="/spades.svg" alt="Spades symbol" className={styles.logo} />
-                        Hopfensport.de
-                        <img src="/hearts.svg" alt="Hearts Symbol" className={styles.logo} />
-                        <img src="/diamonds.svg" alt="Diamonds Symbol" className={styles.logo} />
+            <div className={styles.grid}>
+                <Link href="/new_game">
+                    <a className={styles.card}>
+                        <h3>Schnellstart &rarr;</h3>
+                        <p>Starte direkt in ein neues Spiel mit deinen Freunden.</p>
                     </a>
                 </Link>
-            </footer>
-        </div>
+                <Link href="/roadmap">
+                    <a className={styles.card}>
+                        <h3>Roadmap &rarr;</h3>
+                        <p>Neugierig, was für die Zukunft von Hopfensport.de geplant ist?</p>
+                    </a>
+                </Link>
+                <Link href="/feedback">
+                    <a className={styles.card}>
+                        <h3>Feeback &rarr;</h3>
+                        <p>Verbesserungsideen? Einen Bug gefunden? Hier kannst du deinen Senf dazu geben.</p>
+                    </a>
+                </Link>
+            </div>
+        </main>
     )
 }
