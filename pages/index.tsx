@@ -49,11 +49,11 @@ export default function Home() {
             <footer className={styles.footer}>
                 <Link href="/">
                     <a>
-                        <Image src="/clubs.svg" alt="Clubs symbol" className={styles.logo} />
-                        <Image src="/spades.svg" alt="Spades symbol" className={styles.logo} />
-                Hopfensport.de
-                        <Image src="/hearts.svg" alt="Hearts Symbol" className={styles.logo} />
-                        <Image src="/diamonds.svg" alt="Diamonds Symbol" className={styles.logo} />
+                        <img src="/clubs.svg" alt="Clubs symbol" className={styles.logo} />
+                        <img src="/spades.svg" alt="Spades symbol" className={styles.logo} />
+                        Hopfensport.de
+                        <img src="/hearts.svg" alt="Hearts Symbol" className={styles.logo} />
+                        <img src="/diamonds.svg" alt="Diamonds Symbol" className={styles.logo} />
                     </a>
                 </Link>
             </footer>
