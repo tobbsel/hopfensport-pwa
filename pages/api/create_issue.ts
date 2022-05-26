@@ -16,7 +16,7 @@ const createIssue = async (req: NextApiRequest, res: NextApiResponse) => {
                 repo: process.env.GITHUB_ISSUES_REPO_NAME!,
                 title: requestBody.title,
                 body: requestBody.description + (requestBody.creator ? `\n\ncreated by "${requestBody.creator}"` : ''),
-                labels: [requestBody.issueType, 'a']
+                labels: [requestBody.issueType]
             });
         } else {
             res.status(400).end('')
