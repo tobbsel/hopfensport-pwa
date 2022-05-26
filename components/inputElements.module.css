@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.label {
+    display: inline-block;
+    width: 7em;
+}
+
+.error {
+    border-color: red;
+}

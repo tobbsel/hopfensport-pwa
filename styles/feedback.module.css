@@ -1,0 +1,21 @@
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.sendButton {
+    padding: 0.5rem;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.textLink {
+    text-decoration: underline;
+}

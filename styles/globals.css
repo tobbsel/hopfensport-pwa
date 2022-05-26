@@ -14,3 +14,14 @@ a {
 * {
     box-sizing: border-box;
 }
+
+textarea {
+    resize: none;
+    width: 80vw;
+    max-width: 500px;
+} 
+
+input {
+    width: 80vw;
+    max-width: 500px;
+} 

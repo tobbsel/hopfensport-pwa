@@ -13,19 +13,19 @@ export default function Home() {
             </p>
 
             <div className={styles.grid}>
-                <Link href="/new_game">
+                <Link href='/new_game'>
                     <a className={styles.card}>
                         <h3>Schnellstart &rarr;</h3>
                         <p>Starte direkt in ein neues Spiel mit deinen Freunden.</p>
                     </a>
                 </Link>
-                <Link href="/roadmap">
+                <Link href='/roadmap'>
                     <a className={styles.card}>
                         <h3>Roadmap &rarr;</h3>
                         <p>Neugierig, was für die Zukunft von Hopfensport.de geplant ist?</p>
                     </a>
                 </Link>
-                <Link href="/feedback">
+                <Link href='/feedback'>
                     <a className={styles.card}>
                         <h3>Feeback &rarr;</h3>
                         <p>Verbesserungsideen? Einen Bug gefunden? Hier kannst du deinen Senf dazu geben.</p>
